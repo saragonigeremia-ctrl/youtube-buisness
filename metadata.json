@@ -1,0 +1,6 @@
+{
+  "name": "YouTube Shorts Channel Analyzer & Script Blueprint",
+  "description": "Strumento per selezionare canali YouTube Shorts con la più alta media visualizzazioni per video caricato, analizzare i pattern virali e generare report scaricabili e script di timeline per fare soldi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

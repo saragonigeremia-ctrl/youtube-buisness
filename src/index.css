@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @media print {
+    body {
+      background-color: #ffffff !important;
+      color: #0f172a !important;
+    }
+
+    .no-print {
+      display: none !important;
+    }
+
+    .print-only {
+      display: block !important;
+    }
+
+    .print-break-inside-avoid {
+      break-inside: avoid !important;
+      page-break-inside: avoid !important;
+    }
+
+    .print-page-break {
+      page-break-before: always !important;
+    }
+
+    /* Remove shadows and background color filters in print */
+    * {
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+  }
+}
